@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff6b6b, #ff69b4, #ff6b6b);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: transparent;
+    padding: 2rem;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    margin: 2rem auto;
+    overflow-y: auto;
+    height: 80vh;
+}
+
+.button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background: #ff69b4;
+    border: none;
+    border-radius: 5px;
+    color: black; /* This change makes the text on the button black */
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    background: #ff6b6b;
+}
+
+.question {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.question p {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* New styles for radio buttons */
+input[type="radio"] {
+    margin: 0.2rem 0.5rem 0.2rem 0;
+}
+
+.question label {
+    font-weight: normal;
+    margin-right: 1rem;
+    display: inline-block;
+}

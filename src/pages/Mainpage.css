@@ -1,0 +1,47 @@
+.main-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: transparent;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; /* This will horizontally center the child items (buttons) */
+}
+
+.button {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #e0e0e0;
+}
+
+.button h2 {
+  margin-top: 5px;
+  font-size: 10px;
+}
+
+.button p {
+  font-size: 8px;
+}
+
+.button-icon {
+  margin-bottom: 0px;
+}
